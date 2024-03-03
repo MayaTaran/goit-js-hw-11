@@ -4,3 +4,6 @@ export function updateGallery(images) {
         return `<li> <img src="${webformatURL}" alt="${tags}"></li>`;
     }).join('');
 }
+
+
+
