@@ -23,9 +23,17 @@
     <!-- Loads the specified .html file -->
     <!-- <load ="partials/vite-promo.html" /> -->
     <form class="form-to-search">
-      <input class="form-input" type="text" placeholder="Search images..." />
+      <input
+        class="form-input"
+        type="text"
+        name="input-text"
+        placeholder="Search images..."
+      />
       <button class="button-submit" type="submit">Search</button>
     </form>
+    <div>
+      <ul class="gallery" id="image-list"></ul>
+    </div>
     <script type="module" src="./main.js"></script>
   </body>
 </html>

@@ -65,3 +65,51 @@
 .button-submit:focus {
   background-color: #6c8cff;
 }
+
+/* Styles for Gallery */
+.gallery {
+  margin-top: 32px;
+  width: 1440px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.card {
+  height: 200px;
+  width: 360;
+  border: 1px solid #808080;
+  background-color: #fff;
+}
+.card-image {
+  width: 360px;
+  height: 152px;
+  object-fit: cover;
+}
+.discription-list {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.disc-name {
+  margin-top: 4px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+.disc-value {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
